@@ -49,7 +49,7 @@ footer {
   font-size: 16px;
   font-weight: 600;
 }
-.header_logo {
+.header__logo {
   height: 30px;
 }
 .about {
@@ -63,13 +63,13 @@ footer {
   background-position: center;
   background-size: cover;
 }
-.about_info{
+.about__info{
   max-width: 550px;
 }
-.about_image {
+.about__image {
   width: 500px;
 }
-.about_sun-image {
+.about__sun-image {
   width: 100px;
   height: 100px;
   animation: rotation 10s linear infinite;
@@ -176,6 +176,25 @@ footer {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+@media (max-width: 1024px) {
+  .about {
+      padding: 115px 20px;
+  }
+
+  .about h1 {
+      font-size: 36px;
+      line-height: 40px;
+  }
+
+  .about__image {
+      width: 280px;
+  }
+
+  .about__sun-image {
+      width: 75px;
+      height: 75px;
   }
 }
 @media (max-width: 720px) {
