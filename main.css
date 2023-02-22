@@ -54,6 +54,7 @@ footer {
 }
 .about {
   display: flex;
+  position: relative;
   justify-content: space-around;
   align-items: center;
   padding-top: 115px;
@@ -74,6 +75,12 @@ footer {
   height: 100px;
   animation: rotation 10s linear infinite;
   position: absolute;
+}
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right: 0;
 }
 .about h1 {
   font-size: 70px;
